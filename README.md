@@ -1,8 +1,16 @@
-# React + Vite
+# Tienda Sustentable con React y Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descripción
+E-commerce que vende productos sustentables y sin químicos, integrando Firebase Firestore para almacenar productos y React Router para navegación.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
+- Listado y filtrado de productos por categoría.
+- Vista de detalle de cada producto.
+- Navegación en una SPA con React Router.
+- Integración con Firebase Firestore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías
+- React.js
+- React Router
+- Firebase Firestore
+- CSS Modules

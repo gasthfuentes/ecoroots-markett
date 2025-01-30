@@ -1,14 +1,12 @@
-import { Link } from 'react-router-dom';
+import Item from "./Item";
 
 function ItemList({ products }) {
   return (
-    <ul>
-      {products.map(product => (
-        <li key={product.id}>
-          <Link to={`/item/${product.id}`}>{product.name}</Link>
-        </li>
+    <div className="product-list">
+      {products.map((product) => (
+        <Item key={product.id} product={product} />
       ))}
-    </ul>
+    </div>
   );
 }
 
