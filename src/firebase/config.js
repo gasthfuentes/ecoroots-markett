@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_AUTH_DOMAIN",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_STORAGE_BUCKET",
-  messagingSenderId: "TU_MESSAGING_SENDER_ID",
-  appId: "TU_APP_ID",
-};
+    apiKey: "AIzaSyC_Ov7Lo1X_IK26rHJUI2_zGPFOw1CodZ8",
+    authDomain: "ecoroots-markett.firebaseapp.com",
+    projectId: "ecoroots-markett",
+    storageBucket: "ecoroots-markett.firebasestorage.app",
+    messagingSenderId: "30236223361",
+    appId: "1:30236223361:web:239e8b7c2e4c70a7b0aa80",
+    measurementId: "G-5PPGTJ5LF2"
+  };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
