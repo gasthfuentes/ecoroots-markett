@@ -37,7 +37,7 @@ function ItemListContainer({ greeting }) {
   }, [categoryId]);
 
   return (
-    <div>
+    <div className="list-container">
       <h2>{greeting}</h2>
       <Navbar/>
       <ItemList products={products} />
